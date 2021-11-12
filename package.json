@@ -1,0 +1,15 @@
+{
+  "name": "github-workflows",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:psdkumar/github-workflows.git",
+  "author": "Sai Dheeraj <saidheeraj.kumar04@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "apply-db-migrations": "yarn fauna-schema-migrate apply all"
+  },
+  "dependencies": {
+    "fauna-schema-migrate": "2.1.2",
+    "faunadb": "4.4.1"
+  }
+}
